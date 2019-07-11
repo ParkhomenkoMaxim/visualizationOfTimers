@@ -1,0 +1,17 @@
+{
+	"coffee":
+  [
+    {
+      "name":"Espresso",
+      "coffein":65
+    },
+    {
+      "name":"Latte",
+      "coffein":66
+    },
+    {
+      "name":"Cappuccino",
+      "coffein":67
+    }
+  ]
+}

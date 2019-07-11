@@ -1,0 +1,22 @@
+.circle-background,
+.circle-progress,
+.circle-inner {
+  fill: none;
+}
+
+.circle-background {
+  stroke: #35383c;
+}
+
+.circle-inner {
+  stroke: #f9cb27;
+}
+
+.circle-progress {
+  stroke-linecap: butt;
+}
+
+.svg {
+  position: absolute;
+  z-index: 10;
+}

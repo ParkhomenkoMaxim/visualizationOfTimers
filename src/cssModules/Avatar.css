@@ -1,0 +1,114 @@
+.avatarPosition {
+  border-radius: 500px; 
+  width: 80px;
+  height: 80px;
+  z-index: 20;
+  margin-left:10px;
+  margin-top:10px;
+}
+
+.mask {
+  border-radius: 500px; 
+  width: 80px;
+  height: 80px;
+  margin-right:10px;
+  margin-bottom:10px;
+  z-index: 30;
+  position: relative;
+
+}
+
+.mask:hover {
+	background-image: url(../Images/pencil.png);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor:pointer;
+	opacity: 0.7;
+}
+
+.activeAvatar {
+  background: url(../Images/avatar1.png) round;
+  border-radius: 500px; 
+  width: 90px;
+  height: 90px;
+  z-index: 0;
+  margin-left: 5px;
+  margin-top: -5px;
+  position: absolute;
+}
+
+.modalspace {
+   top: 20vh;
+   left: 20vw;
+   background-color: #262830 ;
+   border-radius: 5px;
+}
+
+.modalheader {
+  background-color: #1f2128;
+  height:50px;
+}
+
+.modalheadertext {
+  text-transform: uppercase;
+  color: white;
+}
+
+.modalbody {
+  background-color: #262830;
+  height:40vh;
+}
+
+.modalfooter {
+  background-color: #1f2128;
+  height:60px;
+}
+
+.avatar {
+  border-radius: 50%; 
+  width: auto;
+  height: 105px;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border: 8px solid #3c3e45;
+}
+
+.avatar:hover {
+  border: 8px solid green;
+}
+
+.avatar1 {
+  background: url(../Images/avatar1.png) round;
+}
+.avatar2 {
+  background: url(../Images/avatar2.png) round;
+}
+.avatar3 {
+  background: url(../Images/avatar3.png) round;
+}
+.avatar4 {
+  background: url(../Images/avatar4.png) round;
+}
+.avatar5 {
+  background: url(../Images/avatar5.png) round;
+}
+.avatar6 {
+  background: url(../Images/avatar6.png) round;
+}
+.avatar7 {
+  background: url(../Images/avatar7.png) round;
+}
+.avatar8 {
+  background: url(../Images/avatar8.png) round;
+}
+
+.saveButton {
+ border-radius: 500px; 
+ width: 150px;
+ text-transform: uppercase;
+ font-weight: bold;
+ box-shadow: 0 -3px rgb(53,167,110) inset;
+}
